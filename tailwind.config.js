@@ -26,6 +26,9 @@ module.exports = {
           400: '#777777',
         },
       },
+      dropShadow:{
+        shine:'0px 0px 6px #FC7400'
+      },
       backgroundImage: {
         primary: 'linear-gradient(to right, #FFCC21 0%, #FF963C 100%)',
         'primary-2': 'linear-gradient(32.95deg, #FF963C 8.75%, #FFCC21 86.64%)',
