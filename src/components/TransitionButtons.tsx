@@ -4,7 +4,7 @@ import { foodCategories } from '@/constants';
 // トップページ・入力へ遷移するボタン
 const TransitionButtons = () => {
   return (
-    <section className='flex flex-wrap justify-center items-center py-5 sm:px-5 lg:p-10 gap-5 xs:gap-10 lg:gap-20'>
+    <section className='flex flex-wrap justify-center items-center py-5 px-3 sm:px-5 lg:p-10 gap-5 xs:gap-10 lg:gap-20'>
       {foodCategories.map((category, index) => {
         return (
           <div className='relative' key={index}>
