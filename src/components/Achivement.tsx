@@ -26,8 +26,8 @@ const Achivement = () => {
       <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="200px" height="200px" className='-rotate-90'>
          <defs>
             <linearGradient id="GradientColor">
-               <stop offset="0%" stop-color="#e91e63" />
-               <stop offset="100%" stop-color="#673ab7" />
+               <stop offset="0%" stopColor="#e91e63" />
+               <stop offset="100%" stopColor="#673ab7" />
             </linearGradient>
          </defs>
          <circle cx="100" cy="100" r="90" stroke-linecap="round" className="drop-shadow-shine animation progress-circle" fill='none' stroke='#fff' stroke-width={'5'} stroke-dasharray="563" stroke-dashoffset={'140.65'}    />
