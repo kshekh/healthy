@@ -24,11 +24,11 @@ const Layout: React.FC<Props> = ({ children }) => {
         
       >
         <svg width="17" height="10" viewBox="0 0 17 10" fill='#fff'  xmlns="http://www.w3.org/2000/svg">
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M16.3591 7.92996L8.17956 0L0 7.92995L1.59451 9.4758L8.17955 3.0917L14.7646 9.4758L16.3591 7.92996Z" />
+      <path fillRule="evenodd" clipRule="evenodd" d="M16.3591 7.92996L8.17956 0L0 7.92995L1.59451 9.4758L8.17955 3.0917L14.7646 9.4758L16.3591 7.92996Z" />
       </svg>
       <span className="absolute inset-0 flex justify-center items-center ease-in-out duration-300 group-hover:opacity-0">
       <svg width="17" height="10" viewBox="0 0 17 10" fill='#777'  xmlns="http://www.w3.org/2000/svg">
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M16.3591 7.92996L8.17956 0L0 7.92995L1.59451 9.4758L8.17955 3.0917L14.7646 9.4758L16.3591 7.92996Z" />
+      <path fillRule="evenodd" clipRule="evenodd" d="M16.3591 7.92996L8.17956 0L0 7.92995L1.59451 9.4758L8.17955 3.0917L14.7646 9.4758L16.3591 7.92996Z" />
       </svg>
       </span>
 
