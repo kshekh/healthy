@@ -2,11 +2,16 @@
 const { fontFamily } = require('tailwindcss/defaultTheme');
 
 module.exports = {
-  content: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}', './src/**/*.{js,ts,jsx,tsx}'],
+  content: [
+    './pages/**/*.{js,ts,jsx,tsx}',
+    './components/**/*.{js,ts,jsx,tsx}',
+    './src/**/*.{js,ts,jsx,tsx}',
+  ],
   theme: {
     extend: {
       fontFamily: {
         noto: "'Noto Sans JP', sans-serif",
+        inter: "'Inter', sans-serif",
       },
       colors: {
         light: '#ffffff',
@@ -25,6 +30,7 @@ module.exports = {
         gray: {
           400: '#777777',
         },
+        diaryBorder: '#707070'
       },
       dropShadow:{
         shine:'0px 0px 6px #FC7400'
