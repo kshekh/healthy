@@ -7,8 +7,9 @@ import BodyGraph from './BodyGraph';
 import TransitionButtons from './TransitionButtons';
 import MealHistory from './MealHistory';
 import RecordButton from './RecordButton';
-import Records from './Records';
+import RecordLinks from './RecordLinks';
 import MyDiary from './MyDiary';
+import Exercise from './Exercise';
 
 export {
   Header,
@@ -20,6 +21,7 @@ export {
   TransitionButtons,
   MealHistory,
   RecordButton,
-  Records,
-  MyDiary
+  RecordLinks,
+  MyDiary,
+  Exercise
 };

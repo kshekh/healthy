@@ -30,7 +30,7 @@ module.exports = {
         gray: {
           400: '#777777',
         },
-        diaryBorder: '#707070'
+        customBorder: '#707070'
       },
       backgroundImage: {
         primary: 'linear-gradient(to right, #FFCC21 0%, #FF963C 100%)',

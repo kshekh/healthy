@@ -1,10 +1,11 @@
-import { Records, MyDiary, RecordButton } from '@/components';
+import { RecordLinks, MyDiary, RecordButton, Exercise } from '@/components';
 import React from 'react';
 
 const myrecord = () => {
   return (
     <div className='max-w-[960px] m-auto'>
-      <Records />
+      <RecordLinks />
+      <Exercise />
       <MyDiary />
       <RecordButton />
     </div>

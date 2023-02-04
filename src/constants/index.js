@@ -1,7 +1,7 @@
 export const navLinks = [
   { icon: '/icons/icon_memo.svg', label: '自分の記録', href: '/myrecord' },
-  { icon: '/icons/icon_challenge.svg', label: 'チャレンジ', href: '/' },
-  { icon: '/icons/icon_info.svg', label: 'お知らせ', href: '/' },
+  { icon: '/icons/icon_challenge.svg', label: 'チャレンジ', href: '#' },
+  { icon: '/icons/icon_info.svg', label: 'お知らせ', href: '#' },
 ];
 
 export const records = [
@@ -9,16 +9,19 @@ export const records = [
     image: '/images/MyRecommend-1.jpg',
     title: 'BODY RECORD',
     subtitle: '自分のカラダの記録',
+    href: '#',
   },
   {
     image: '/images/MyRecommend-2.jpg',
     title: 'MY EXERCISE',
     subtitle: '自分の運動の記録',
+    href: '#',
   },
   {
     image: '/images/MyRecommend-3.jpg',
     title: 'MY DIARY',
     subtitle: '自分の日記',
+    href: '#'
   },
 ];
 
