@@ -30,7 +30,7 @@ const Achivement = () => {
                <stop offset="100%" stopColor="#673ab7" />
             </linearGradient>
          </defs>
-         <circle cx="100" cy="100" r="90" stroke-linecap="round" className="drop-shadow-shine animation progress-circle" fill='none' stroke='#fff' stroke-width={'5'} stroke-dasharray="563" stroke-dashoffset={'140.65'}    />
+         <circle cx="100" cy="100" r="90" strokeLinecap="round" className="drop-shadow-shine animation progress-circle" fill='none' stroke='#fff' strokeWidth={'5'} strokeDasharray="563" strokeDashoffset={'140.65'}    />
  </svg>
     </div>
   )
