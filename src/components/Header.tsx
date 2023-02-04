@@ -13,7 +13,7 @@ const defaultStyle = {
   opacity: 0,
 }
 
-const transitionStyles = {
+const transitionStyles:any = {
   entering: { transform :'translateY(-200%)', opacity: 0 },
   entered:  { transform :'translateY(0)', opacity: 1 },
   exiting:  { transform :'translateY(0)', opacity: 1 },

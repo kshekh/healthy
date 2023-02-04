@@ -9,10 +9,10 @@ interface Props {
 
 const BodyGraph = ({ styles }: Props) => {
  
-  const canvas = useRef();
+  const canvas = useRef(null);
       
   useEffect(() => {
-    const ctx = canvas.current;
+    const ctx:any = canvas.current;
    
 
     let chartStatus = Chart.getChart('lineCharts');
@@ -36,7 +36,7 @@ const BodyGraph = ({ styles }: Props) => {
             borderWidth:2,
             backgroundColor: "#FFCC21",
             borderColor:'#FFCC21',
-            responsive:true
+            // responsive:true
           },
           {
             label: "",
@@ -46,19 +46,19 @@ const BodyGraph = ({ styles }: Props) => {
             borderWidth:2,
             backgroundColor: "#8FE9D0",
             borderColor:'#8FE9D0',
-            responsive:true
+            // responsive:true
           },
         ],
       },
    options: {
-    legend: {
-      display: true,
-      position:'bottom',
-      maxWidth:10
-  },
+  //   legend: {
+  //     display: true,
+  //     position:'bottom',
+  //     maxWidth:10
+  // },
      responsive: true,
       
-     stacked: false,
+    //  stacked: false,
     
      scales: {
       y: {

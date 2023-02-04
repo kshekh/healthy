@@ -2,7 +2,8 @@ import Image from 'next/image';
 import React from 'react';
 import Achivement from './Achivement';
 import BodyGraph from './BodyGraph'; 
-import LineChart from './LineChart'; 
+// import BodyGraphLine from './BodyGraphLine'; 
+// import LineChart from './LineChart'; 
 
 const Hero = () => {
   return (
@@ -16,11 +17,11 @@ const Hero = () => {
               <Achivement/>
               </div>
               <div className="absolute inset-0 overflow-hidden flex justift-center items-center bg-dark-600 -mx-3 md:mx-0">
-                  <img src="/images/d01.jpg" alt="" className="w-full block opacity-90 object-cover min-h-full aspect-square" />
+                  <Image src="/images/d01.jpg" alt="" width={1000} height={500} className="w-full block opacity-90 object-cover min-h-full aspect-square" />
                 </div>
           </div>
           <div className='md:flex-1 xl:w-3/5 flex justify-center items-center px-5 xl:px-0 min-h-[280px]'>
-            <BodyGraph styles={'max-w-full md:w-full w-auto'}  />
+            <BodyGraph styles='max-w-full md:w-full w-auto'   />
           </div>
         </div>
       </section>
