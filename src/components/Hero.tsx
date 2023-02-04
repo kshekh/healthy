@@ -20,7 +20,7 @@ const Hero = () => {
                   <Image src="/images/d01.jpg" alt="" width={1000} height={500} className="w-full block opacity-90 object-cover min-h-full aspect-square" />
                 </div>
           </div>
-          <div className='md:flex-1 xl:w-3/5 flex justify-center items-center px-5 xl:px-0 min-h-[280px]'>
+          <div className='md:flex-1 xl:w-3/5 flex justify-center items-center px-5 xl:px-0 min-h-[280px] py-3'>
             <BodyGraph styles='max-w-full md:w-full w-auto'   />
           </div>
         </div>
