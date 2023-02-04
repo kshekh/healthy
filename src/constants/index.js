@@ -4,6 +4,7 @@ export const navLinks = [
   { icon: '/icons/icon_info.svg', label: 'お知らせ', href: '/' },
 ];
 
+
 export const records = [
   {
     image: '/images/MyRecommend-1.jpg',
