@@ -14,7 +14,7 @@ module.exports = {
         inter: "'Inter', sans-serif",
       },
       colors: {
-        light: '#ffffff',
+        light: 'var(--color-light)',
         primary: {
           300: '#FFCC21',
           400: '#FF963C',

@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer base {
+  :root {
+    --color-light: #ffffff;
+  }
+
   body {
     font-family: 'Noto Sans JP', sans-serif;
   }
