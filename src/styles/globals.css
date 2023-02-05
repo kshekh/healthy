@@ -25,13 +25,4 @@
 * {
   @apply text-light;
 }
-
-.progress-circle {
-  animation: animation 2s linear forwards;
-}
-
-@keyframes animation {
-  100% {
-    stroke-dashoffset: 0%;
-  }
-}
+ 
