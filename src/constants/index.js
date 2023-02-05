@@ -1,7 +1,7 @@
 export const navLinks = [
   { icon: '/icons/icon_memo.svg', label: '自分の記録', href: '/myrecord' },
   { icon: '/icons/icon_challenge.svg', label: 'チャレンジ', href: '#' },
-  { icon: '/icons/icon_info.svg', label: 'お知らせ', href: '#' },
+  // { icon: '/icons/icon_info.svg', label: 'お知らせ', href: '#' },
 ];
 
 

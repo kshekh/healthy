@@ -6,7 +6,7 @@ import { navLinks } from '@/constants';
 import { Transition } from 'react-transition-group';
 import { Scale } from 'chart.js';
 
-const duration = 300;
+const duration = 50;
 
 const defaultStyle = {
   transition: `opacity ${duration}ms ease-in-out`,
@@ -76,6 +76,16 @@ export default function NavBar() {
             }`}>
             <ul className='items-center justify-center space-y-8 md:flex md:space-x-[16px] md:space-y-0'>
               <Menu items={navLinks}>
+              <li >
+              <button className='flex items-center justify-center md:w-40 md:h-12'>
+                <span className='relative'>
+                <Image className='' src='/icons/icon_info.svg' width={32} height={32} alt="Icon Menu" />
+                {/* Notification counter */}
+                <span className='absolute -top-1.5 -right-1.5 leading-none bg-primary-500 rounded-full p-1 px-1.5 inline-flex text-xs text-white'>0</span>
+                </span>
+                <Link className='md:ml-2 md:w-24 md:text-left hover:text-primary-400 ease-in-out duration-300' href="#">お知らせ</Link>
+              </button>
+            </li>
                 <li className='relative'>
                   
                   <button type='button' className={`flex items-center justify-center ${dropdown ? 'bg-dark-600' : ''}`} onClick={() => setDropdown(!dropdown)}>
