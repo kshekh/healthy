@@ -58,8 +58,8 @@ const Achivement = () => {
       >
         <defs>
           <linearGradient id="GradientColor">
-            <stop offset="0%" stopColor="#e91e63" />
-            <stop offset="100%" stopColor="#673ab7" />
+            <stop offset="0%" stopColor="#FFCC21" />
+            <stop offset="100%" stopColor="#fff" />
           </linearGradient>
         </defs>
         <circle
@@ -69,7 +69,7 @@ const Achivement = () => {
           strokeLinecap="round"
           className="drop-shadow-shine progress-circle"
           fill="none"
-          stroke="#fff"
+          stroke="url(#GradientColor)"
           strokeWidth={"5"}
         />
       </svg>
